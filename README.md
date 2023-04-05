@@ -1,4 +1,4 @@
-#Nombre del proyecto.
+#Nombre del proyecto
 Katalon demo cura
 
 ##Contexto: Katalon demo cura es una página de pruebas, donde se concertan citas medicas.
@@ -13,8 +13,9 @@ Se realizarán un análisis estático de los requerimientos funciones, seguido s
 
 ###@Cp01
 
- `Scenario Outline: Fill out the medical appointment form
-    Given  that the user enter home page
+ `Scenario Outline: Fill out the medical appointment form`
+    
+    `Given  that the user enter home page`
     When the user is on the home page, login.
       | strUsername   | strPassword   |
       | <strUsername> | <strPassword> |
