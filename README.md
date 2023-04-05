@@ -1,6 +1,7 @@
 #Nombre del proyecto.
-Demo_Guru
-Contexto: Katalon demo cura es una página de pruebas, donde se concertan citas medicas.
+Katalon demo cura
+
+##Contexto: Katalon demo cura es una página de pruebas, donde se concertan citas medicas.
 URL: https://katalon-demo-cura.herokuapp.com/profile.php#login"
 
 ##Estrategia
@@ -8,15 +9,6 @@ Se realizarán un análisis estático de los requerimientos funciones, seguido s
 
 
 ##Casos de pruebas:
-
-###Cp01
-Esquema del escenario:Introducir las credenciales proporcionadas en el registro
-
-Dado que el usuario ha sido enviado a la página
-
-Cuando encuentro la página introduzco mis credenciales
-
-Entonces el mensaje en vivo es visible.
 
 
 ###@Cp01
